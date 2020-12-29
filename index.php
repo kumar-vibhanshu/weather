@@ -1,4 +1,13 @@
+<!-- /*
+ * @Author Kumar Vibhanshu <vibhanshumonty@gmail.com>
+ * @Package Get Weather Details 
+ * @weather_Api Integration
+ * visit: https://kmrvibhanshu.000webhostapp.com/weather/
+*/ -->
+
+
 <?php
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // collect value of input field
     $city = $_POST['city'];
@@ -31,9 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sunrise = "<b>Sunrise:" . date('h:i A', $data_fetch['sys']['sunrise']) . "</b><br>";
     $sunset = "<b>Sunset:" . date('h:i A', $data_fetch['sys']['sunset']) . "</b>";
 }
-// if (isset($_POST['submit'])) {
 
-// }
 ?>
 
 
@@ -41,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 
 <head>
-    <title>Weather - Vibhanshu</title>
+    <title>Weather - K. Vibhanshu</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
