@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container">
         <center>
         <h2>Get Weather Details</h2>
-        <div class="card text-center w-50">
+        <div class="card text-center w-100">
             <div class="card-header">Weather Info</div>
             <div class="card-body">
                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" name="api_form">
