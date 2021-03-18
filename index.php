@@ -89,8 +89,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         echo $windspeed;
                         echo $pressure;
                         echo $visibility;
-                        echo $sunrise;
-                        echo $sunset;
                     }
                     ?>
                 </div>
